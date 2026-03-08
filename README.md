@@ -53,15 +53,7 @@ Project Structure
 
 The project follows a modular React architecture with separate directories for components, pages, and utilities.
 
-Pro-Techt/
-├── src/
-│   ├── components/   # Reusable UI components
-│   ├── pages/        # Application pages
-│   ├── hooks/        # Custom React hooks
-│   ├── lib/          # Utility functions
-│   └── styles/       # Global styles
-├── public/           # Static assets
-└── supabase/         # Supabase migrations and functions
+
 Getting Started
 Prerequisites
 
