@@ -1,96 +1,101 @@
-# 🛠️ Pro-Techt: Smart Service Center Portal ⚙️
+Pro-Techt: Smart Service Center Management Portal
 
-**Pro-Techt** streamlines service center management by integrating job tracking, customer communication, and performance reporting into one unified AI-assisted platform.
+Pro-Techt is a service center management platform designed to streamline operations by integrating job tracking, product management, customer communication, and performance reporting into a single AI-assisted system. The platform helps service centers efficiently manage service workflows while improving communication between customers, businesses, and service technicians.
 
-## ✨ Key Features
+Key Features
+Dashboard Overview
 
--   📋 **Dashboard Overview:** Get an instant summary of all service operations — active jobs, pending reports, turnaround times, and SLA compliance.
--   📦 **Product & Warranty Management:** Track product warranties, view service histories, and manage your product catalog.
--   💬 **Real-Time Chat:** Communicate instantly with customers and service centers for quick query resolution.
--   📊 **Analytics & Reporting:** Monitor key performance indicators with visual charts and generate insightful reports.
--   📄 **Service Reports:** Generate and export detailed service summaries of completed jobs.
--   🤖 **AI-Powered Assistance:** Get smart suggestions and automated insights to improve service efficiency.
--   🔐 **Secure & Role-Based:** Different views and permissions for consumers, business partners, and service centers.
+Provides a centralized view of service operations, including active jobs, pending service reports, turnaround times, and SLA compliance.
 
-## 🚀 Tech Stack
+Product and Warranty Management
 
--   **Frontend:** React, TypeScript, Vite, Tailwind CSS
--   **UI Components:** Shadcn UI
--   **Backend:** Supabase (Auth, Database, Storage)
--   **Deployment:** Vercel / Netlify
+Allows service centers to track product warranties, maintain service histories, and manage product catalogs.
 
-## 🎨 Design Philosophy
+Real-Time Communication
 
--   **Modern & Clean:** A minimalist UI with a focus on clarity and ease of use.
--   **Responsive:** Fully accessible on both desktop and mobile devices.
--al:** Leverages AI to provide proactive support and insights.
+Includes an integrated chat system that enables direct communication between customers, business partners, and service centers for faster issue resolution.
 
-## 🏗️ Project Structure
+Analytics and Reporting
 
-The Pro-Techt project follows a clean, organized React-based structure with dedicated folders for pages, components, and global styles.
+Tracks key performance indicators using visual analytics and generates detailed operational reports.
 
-```
+Service Reports
+
+Generates structured service reports for completed repair jobs that can be exported for documentation or customer records.
+
+AI-Assisted Insights
+
+Uses AI-powered recommendations and automated insights to improve service efficiency and operational decision-making.
+
+Secure Role-Based Access
+
+Implements role-based permissions that provide different views and functionalities for consumers, business partners, and service centers.
+
+Technology Stack
+
+Frontend: React, TypeScript, Vite, Tailwind CSS
+UI Components: Shadcn UI
+Backend: Supabase (Authentication, Database, Storage)
+Deployment: Vercel or Netlify
+
+Design Principles
+
+Modern and Clean Interface
+A minimalist user interface designed for clarity, usability, and efficient navigation.
+
+Responsive Design
+Fully optimized for both desktop and mobile devices.
+
+AI-Assisted Operations
+Incorporates intelligent insights and automation to improve service management and decision-making.
+
+Project Structure
+
+The project follows a modular React architecture with separate directories for components, pages, and utilities.
+
 Pro-Techt/
 ├── src/
 │   ├── components/   # Reusable UI components
-│   ├── pages/        # Top-level page components
+│   ├── pages/        # Application pages
 │   ├── hooks/        # Custom React hooks
 │   ├── lib/          # Utility functions
 │   └── styles/       # Global styles
 ├── public/           # Static assets
 └── supabase/         # Supabase migrations and functions
-```
+Getting Started
+Prerequisites
 
-## 🛠️ Getting Started
+Node.js (v18 or higher)
 
-Follow these steps to set up and run **Pro-Techt** locally for development:
+npm or yarn
 
-### Prerequisites
+Supabase account
 
--   Node.js (v18 or higher)
--   npm or yarn
--   Supabase Account
+Installation
 
-### Installation & Setup
+Clone the repository
 
-1.  **Clone the repository:**
+git clone https://github.com/your-username/Pro-Techt.git
 
-    ```bash
-    git clone https://github.com/your-username/Pro-Techt.git
-    ```
+Navigate to the project directory
 
-2.  **Navigate to the project directory:**
+cd Pro-Techt
 
-    ```bash
-    cd Pro-Techt
-    ```
+Install dependencies
 
-3.  **Install dependencies:**
+npm install
 
-    ```bash
-    npm install
-    ```
+Set up Supabase credentials by creating a .env file and adding your project URL and anon key.
 
-4.  **Set up Supabase:**
-    -   Create a new project on [Supabase](https://supabase.com/).
-    -   Copy your project URL and anon key into a `.env` file in the root directory.
+Run the development server
 
-5.  **Run the development server:**
+npm run dev
+Future Enhancements
 
-    ```bash
-    npm run dev
-    ```
-
-## 📈 Future Roadmap
-
--   **Enhanced AI Features:** Deeper integration of AI for predictive maintenance and automated customer support.
--   **Inventory Management:** Track spare parts and manage stock levels.
--   **Billing & Invoicing:** Generate invoices for out-of-warranty repairs.
--   **Service Reports:** Generate and download service completion summaries.
--   **Push Notifications:** Real-time alerts for status updates and new messages.
--   **User Feedback System:** Collect ratings and reviews for completed services.
--   **Multi-Language Support:** Make the platform accessible to a global audience.
--   📱 **Mobile App Version:** Bring Pro-Techt to mobile technicians.
-
----
-
+AI-powered predictive maintenance and automated customer support
+Inventory and spare parts management
+Billing and invoicing for out-of-warranty services
+Real-time push notifications for job updates
+Customer feedback and rating system
+Multi-language support
+Mobile application for field technicians
